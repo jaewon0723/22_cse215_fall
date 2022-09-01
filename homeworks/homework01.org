@@ -2,9 +2,9 @@
 
  Homework for week 01. Due: 11h59pm on Thursday, 2022-09-08. 
 
- Please submit your solutions in a single PDF on Blackboard. Please do not include your name or email address on your homework.
+ Please submit your solutions in a single PDF on Blackboard. Please do not include your name or email address in your homework.
 
- Multiple submissions are possible before the due date; the last submission will be graded. 
+ Multiple submissions are possible before the due time; the last submission will be graded. 
 
 
 * Exercise 1 (score = 10)
