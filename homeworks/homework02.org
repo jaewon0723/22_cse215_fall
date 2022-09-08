@@ -1,0 +1,102 @@
+* Guideline
+ Homework for week 02. Due: 11h59pm on Thursday, 2022-09-15. 
+
+ Please submit your solutions in a single PDF on Blackboard.  Multiple submissions are possible before the due time; the last submission will be graded. 
+
+Academic integrity is important: https://github.com/zhoulaifu/22_cse215_fall#academic-integrity. 
+
+
+* Exercise 1 (score = 12)
+
+Use truth tables to determine whether the argument form below is valid
+
+(1)
+
+- premises: p -> q,  q
+- conclusion: p
+
+
+(2)
+
+- premises: p-> q, ~p
+- conclusion: ~q
+
+(3)
+
+- premises: p-> q, p
+- conclusion: q
+
+(4)
+
+- premises: p-> q, ~q
+- conclusion: ~p 
+  
+
+
+* Exercise 2 (score = 48)
+
+Use truth tables to determine whether the argument form below is valid  
+
+(1)
+
+- Premises: p -> q,  ~p -> ~q
+- Conclusion:  p \/ q
+
+
+(2)
+
+- Premises: p \/ q, p -> ~q, ~r -> ~p
+- Conclusion: r
+
+
+(3)
+
+- Premises: p, ~q -> ~p,  ~q \/ r
+- Conclusion r
+
+
+(4)
+
+- Premises: p/\q -> ~r,  p \/ ∼q,  ∼q -> p
+- Conclusion: ~r
+
+
+(5)
+
+- Premises: p -> r, q -> r
+- Conclusion: (p \/ q) -> r
+
+
+(6)
+
+- Premises: p -> (q \/ r),  ~q \/ ~r
+- Conclusion: ∼p \ / ∼r
+
+
+  
+  
+
+* Exercise 3 (score = 20)
+
+  Check if the two statement form are equivalent, and expaian why:
+
+  - (p -> q)/\(q -> r)/\(r -> p)
+  - p /\ q /\ r
+
+
+
+* Exercise 4 (points = 20)
+
+Use inference rules to show the following argument is valid
+
+Premises
+- p ∨ q
+- q -> r
+- p ∧ s -> t
+- ∼r
+- ∼q → u ∧ s
+
+Conclusion
+- t
+
+
