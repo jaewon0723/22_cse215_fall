@@ -1,0 +1,104 @@
+* Guideline
+
+ Homework for week 04. Due: 11h59pm on Thursday, 2022-09-29. 
+
+ Please submit your solutions in a single PDF on Blackboard. Multiple submissions are possible before the due time; the last submission will be graded. 
+
+
+
+ 
+* Exercise 1 (points = 10)
+
+  Prove: If n is odd, then 8|(n^2−1).
+
+
+* Exercise 2 (points = 10)
+
+  Prove: For any integers a and b, if both ab and a+b are even, then both a and b are even.
+
+
+* Exercise 3 (points = 30)
+
+  Determine which statements are true and which are false. Prove those that are true
+and disprove those that are false. 
+
+1. rational/irrational is irrational.
+2. Irrational*irrational is irrational.   
+3. The sum of any two positive irrational numbers is irrational.
+4. The square root of any rational number is irrational.
+
+
+  
+
+  
+
+
+* Exercise 4 (points = 10)
+
+  Prove that there are no integers x and y such that x^3 = 4y + 6.
+
+
+
+* Exercise 5 (points = 10)
+
+ Fermat's Last Theorem states that no three positive integers a, b, and c satisfy the equation a^n + b^n = c^n for any integer value of n greater than 2.
+
+  
+Now, prove
+- The cube root of 2 is irrational. (The cube root of a number a is a number b such that b*b*b=a.)
+
+You can prove this either with Fermat's Last Theorem or not. 
+
+
+
+  
+* Exercise 6 (points = 20)
+
+The quotient remainder theorem says:
+Given any integer A and a positive integer B, there exist unique integers Q and R such that A= B * Q + R where 0 ≤ R < B. Examples:
+- A = 7, B = 2: 7 = 2 * 3 + 1
+- A = 8, B = 4: 8 = 4 * 2 + 0
+- A = 13, B = 5: 13 = 5 * 2 + 3
+- A = -16, B = 26 :-16 = 26 * -1 + 10
+
+From the quotient-remainder theorem, we know that any integer divided by a positive integer will have a set number of remainders and thus a set number of representations. For example, any integer divided by 7 will produce a remainder between 0 and 6 (inclusive). So every integer n  can be represented by one of the following forms: n = 7q, n=7q+1, n=7q+2, n=7q+3, n=7q+4, n=7q+5, n=7q+6, n=7q+7 (where q is an integer). 
+
+Now prove the following two propositions. Perhaps you can use the quotient remainder theorem.
+
+- The product of any four consecutive integers is a multiple of 8. 
+- The square root of 3 is irrational.
+  
+
+
+
+* Exercise 7 (points = 10)
+
+
+Before 1930, mathematicians were in the mindset that any true mathematical statement could be proved. That turned out to be wrong, as is later shown in Godel's incompleteness theorem, which shocked the whole community of mathematics and science. With the advent of computers, people once believed -- informally speaking --- that any mathematical problem can be solved with an algorithm. But later, Alan Turing proved that there are problems that absolutely no algorithms can solve. We now examine such a problem, known as the Halting Problem. We will use proof by contradiction to prove it is not solvable by any algorithm. 
+
+Imagine a computer program (or algorithm) called HaltCheck. Its purpose is to determine whether a program will halt or not. For example, a program may go into an infinite loop or recursive call, making it not halt. More specifically, HaltCheck  reads a computer program P and an input x of the program, and HaltCheck (P, x) returns "halt"  if P halts with the input x or "not halt" if P does not halt with that input.
+
+
+Turing discovered that it is impossible to write HaltCheck as any algorithm. In other words, no computers can solve the halting problem. Turing proved so by constructing an artificial program that looks like the following:
+
+
+#+BEGIN_SRC python
+prog(x):
+    if HaltCheck (x, x):
+      go into an infinite loop
+    else:
+      return
+#+END_SRC
+
+Now, your job is to use proof by contradiction to prove the following:
+
+- HaltCheck (prog, prog) = "halt"
+- HaltCheck (prog, prog) = "not halt"
+
+You do not need to fully understand everything in this question to answer the question. As you can see, the two statements to prove contradict each other, which is exactly how Turing famously proved that "no computers can solve the halting problem". Interested students can further read about the topic from Stanford Encyclopedia: https://plato.stanford.edu/entries/computability/#HalPro,   or ComputerPhile's explanation using Python: https://www.youtube.com/watch?v=r__GZ7ubU0M
+
+Note: Above the expression HaltCheck(prog, prog)  means HaltCheck is asked to decide whether prog halts with itself as the input. Keep in mind that many programs can use themselves as input, e.g., a program that counts the number of characters in a file, although most programs could come to a crashing halt if they read in themselves as input. 
+
+
+
+
