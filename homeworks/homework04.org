@@ -61,7 +61,7 @@ Given any integer A and a positive integer B, there exist unique integers Q and 
 - A = 13, B = 5: 13 = 5 * 2 + 3
 - A = -16, B = 26 :-16 = 26 * -1 + 10
 
-From the quotient-remainder theorem, we know that any integer divided by a positive integer will have a set number of remainders and thus a set number of representations. For example, any integer divided by 7 will produce a remainder between 0 and 6 (inclusive). So every integer n  can be represented by one of the following forms: n = 7q, n=7q+1, n=7q+2, n=7q+3, n=7q+4, n=7q+5, n=7q+6, n=7q+7 (where q is an integer). 
+From the quotient-remainder theorem, we know that any integer divided by a positive integer will have a set number of remainders and thus a set number of representations. For example, any integer divided by 7 will produce a remainder between 0 and 6 (inclusive). So every integer n  can be represented by one of the following forms: n=7q, n=7q+1, n=7q+2, n=7q+3, n=7q+4, n=7q+5, n=7q+6 (where q is an integer). 
 
 Now prove the following two propositions. Perhaps you can use the quotient remainder theorem.
 
