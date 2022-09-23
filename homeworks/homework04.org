@@ -44,7 +44,7 @@ and disprove those that are false.
  Fermat's Last Theorem states that no three positive integers a, b, and c satisfy the equation a^n + b^n = c^n for any integer value of n greater than 2.
 
   
-Now, prove
+Now, prove:
 - The cube root of 2 is irrational. (The cube root of a number a is a number b such that b*b*b=a.)
 
 You can prove this either with Fermat's Last Theorem or not. 
@@ -65,8 +65,8 @@ From the quotient-remainder theorem, we know that any integer divided by a posit
 
 Now prove the following two propositions. Perhaps you can use the quotient remainder theorem.
 
-- The product of any four consecutive integers is a multiple of 8. 
-- The square root of 3 is irrational.
+1. The product of any four consecutive integers is a multiple of 8. 
+2. The square root of 3 is irrational.
   
 
 
@@ -92,13 +92,10 @@ prog(x):
 
 Now, your job is to use proof by contradiction to prove the following:
 
-- HaltCheck (prog, prog) = "halt"
-- HaltCheck (prog, prog) = "not halt"
+1. HaltCheck (prog, prog) = "halt"
+2. HaltCheck (prog, prog) = "not halt"
 
 You do not need to fully understand everything in this question to answer the question. As you can see, the two statements to prove contradict each other, which is exactly how Turing famously proved that "no computers can solve the halting problem". Interested students can further read about the topic from Stanford Encyclopedia: https://plato.stanford.edu/entries/computability/#HalPro,   or ComputerPhile's explanation using Python: https://www.youtube.com/watch?v=r__GZ7ubU0M
 
 Note: Above the expression HaltCheck(prog, prog)  means HaltCheck is asked to decide whether prog halts with itself as the input. Keep in mind that many programs can use themselves as input, e.g., a program that counts the number of characters in a file, although most programs could come to a crashing halt if they read in themselves as input. 
-
-
-
 
