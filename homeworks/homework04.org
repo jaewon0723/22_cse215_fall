@@ -97,9 +97,7 @@ Now, your job is to use proof by contradiction to prove the following:
 1. HaltCheck (prog, prog) = "halt"
 2. HaltCheck (prog, prog) = "not halt"
 
-Hint: We will get a contradiction by running prog(prog). In other words, we will run the above procedure prog with the input x replaced by prog.
+Hint: You can get the contradiction by running prog(prog). In other words, you can run the above procedure prog with the input x replaced by prog. Above the expression HaltCheck(prog, prog)  means HaltCheck is asked to decide whether prog halts with itself as the input. Keep in mind that many programs can use themselves as input, e.g., a program that counts the number of characters in a file, although most programs could come to a crashing halt if they read in themselves as input. 
 
 You do not need to fully understand everything in this question to answer the question. As you can see, the two statements to prove contradict each other, which is exactly how Turing famously proved that "no computers can solve the halting problem". Interested students can further read about the topic from Stanford Encyclopedia: https://plato.stanford.edu/entries/computability/#HalPro,   or ComputerPhile's explanation using Python: https://www.youtube.com/watch?v=r__GZ7ubU0M
-
-Note: Above the expression HaltCheck(prog, prog)  means HaltCheck is asked to decide whether prog halts with itself as the input. Keep in mind that many programs can use themselves as input, e.g., a program that counts the number of characters in a file, although most programs could come to a crashing halt if they read in themselves as input. 
 
