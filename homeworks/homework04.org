@@ -84,7 +84,7 @@ Turing discovered that it is impossible to write HaltCheck as any algorithm. In 
 
 #+BEGIN_SRC python
 prog(x):
-    if HaltCheck (x, x):
+    if HaltCheck (x, x) == "halt":
       go into an infinite loop
     else:
       return
